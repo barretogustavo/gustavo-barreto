@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- CSS imports -->
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/projects/projects-style.css" />
+  <link rel="stylesheet" href="./styles/global/responsive-menu.css">
+  <link rel="stylesheet" href="./styles/global/footer.css">
+
+  <title>Gustavo Barreto - Projetos</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav role="navigation" class="navbar">
+      <h2></h2>
+      <div tabindex="1" class="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Show Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">sobre</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link in-focus">projetos</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">contato</a>
+        </li>
+        <li class="nav-item">
+          <a href="news.html" class="nav-link">novidades</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div>
+      <h1 class="title-primary">Projetos</h1>
+      <p class="page-description">Veja meus projetos desenvolvidos com diferentes linguagens e ferramentas. </p>
+
+      <div class="projects-area">
+        <div class="project-card">
+          <img class="project-img" src="assets/projeto-1.png" alt="Projeto">
+          <div class="project-info">
+            <h2>Blog</h2>
+            <p>Desenvolvi um blog sobre tecnologia, utilizei padrão MVC, autenticação de usuário, validação de e-mail.
+            </p>
+            <p class="technologies">Ruby on Rails, Bootstrap</p>
+            <a href="https://github.com/barretogustavo/blogstrap" target="_blank" class="btn">Ver projeto</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-img" src="assets/projeto-2.png" alt="Projeto">
+          <div class="project-info">
+            <h2>PizzaMais</h2>
+            <p>E-commerce de uma pizzaria completo com todos os componentes necessários.</p>
+            <p class="technologies">React, Typescript, Styled-components</p>
+            <a href="https://github.com/barretogustavo/pizza-typescript" target="_blank" class="btn">Ver projeto</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-img"
+            src="https://lh3.googleusercontent.com/p/AF1QipOXMdTu7a5atvposWRDGbOZbr3_egzqmOoTKKfX=w1080-h608-p-no-v0"
+            alt="Projeto">
+          <div class="project-info">
+            <h2>AmorSaude</h2>
+            <p>Projeto Fullstack. Crud para gerenciamento de profissionais de saúde.</p>
+            <p class="technologies">Angular 14, NodeJS, Tailwind</p>
+            <a href="https://github.com/barretogustavo/tech-amor-saude" target="_blank" class="btn">Ver projeto</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Gustavo Barreto. Portfólio para disciplina de Sistemas Web.</p>
+  </footer>
+
+  <script src="src/index.js"></script>
+</body>
+
+</html>

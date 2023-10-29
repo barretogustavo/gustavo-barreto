@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+  <!-- CSS imports -->
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/contact/contact-style.css" />
+  <link rel="stylesheet" href="./styles/global/responsive-menu.css">
+  <link rel="stylesheet" href="./styles/global/footer.css">
+
+  <title>Gustavo Barreto - Contato</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav role="navigation" class="navbar">
+      <h2></h2>
+      <div tabindex="1" class="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Show Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">sobre</a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="nav-link">projetos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link in-focus">contato</a>
+        </li>
+        <li class="nav-item">
+          <a href="news.html" class="nav-link">novidades</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="contact-area">
+      <h1 class="title-primary">Contato</h1>
+      <p class="page-description">Sinta-se à vontade para entrar em contato comigo através do formulário abaixo ou
+        através das minhas redes sociais.</p>
+
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="social-icons">
+        <a href="https://www.instagram.com/gustavobarreto.dev/" target="_blank">Instagram</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Gustavo Barreto. Portfólio para disciplina de Sistemas Web.</p>
+  </footer>
+
+  <script src="src/index.js"></script>
+</body>
+
+</html>

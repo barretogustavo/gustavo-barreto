@@ -1,0 +1,45 @@
+.about-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-area div:nth-child(1) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin: 2rem 0 0 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.gallery figure {
+  width: 33%;
+  height: 300px;
+}
+
+figure img {
+  border-radius: 0.5rem;
+}

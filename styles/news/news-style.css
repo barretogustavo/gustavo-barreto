@@ -1,0 +1,30 @@
+.page-description {
+  margin-bottom: 2rem;
+}
+
+.news-area {
+  width: auto;
+  margin: 1rem 0;
+  border: 1px solid orange;
+  padding: 1rem;
+}
+
+.news-area h2 {
+  margin-bottom: 1rem;
+}
+
+.news-description {
+  margin-bottom: 1rem;
+}
+
+.btn-see-more {
+  height: 30px;
+  background-color: orange;
+  outline: none;
+  margin-top: 1rem;
+  border: none;
+  color: #fff;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
